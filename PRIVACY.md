@@ -1,7 +1,7 @@
 # Privacy Policy for Gott
 
-**Effective date:** May 5, 2026
-**Last updated:** May 5, 2026
+**Effective date:** May 22, 2026
+**Last updated:** May 22, 2026
 
 This Privacy Policy explains how Tim Johansson ("we", "us", "our") collects, uses, and protects information when you use the Gott mobile application (the "App"). Gott is an iOS app for creating and sharing grocery lists.
 
@@ -19,6 +19,8 @@ Email: tim.johansson5@gmail.com
 
 We collect only the information that is necessary to provide the App's functionality.
 
+**Local-only use (guest mode).** You can use the App without creating an account. In guest mode, your lists, items, and other content are stored only on your device, and we do not transmit that content to our servers. If you later choose to create an account, you can opt to migrate your existing local lists to your account; until you do so, no list content leaves your device.
+
 **Account information.** When you sign in to Gott, we store an account identifier and, depending on the sign-in method you choose, your email address and display name. You may also choose to add a profile picture.
 
 **List and item content.** We store the grocery lists, items, quantities, notes, categories, check states, and other content you create or share within the App.
@@ -29,7 +31,13 @@ We collect only the information that is necessary to provide the App's functiona
 
 **Push notification tokens.** If you allow notifications, we store a device push token (provided by Apple Push Notification service, APNs) so that we can deliver notifications to your device. We also store the APNs environment associated with that token (sandbox or production) so that notifications are routed correctly.
 
-**Crash and error diagnostics.** To keep the App stable and secure, we use Sentry to collect automatic crash reports and error events. These reports may include device type, operating system version, app version, language, locale, a non-persistent installation identifier, stack traces, breadcrumbs of recent in-app actions, and limited contextual data about the error. We have configured Sentry to minimize personal data; we do not deliberately attach your name, email, or list contents to crash reports. Sentry reports are used solely to diagnose and fix issues.
+**Photos and camera input.** With your permission, you can take a photo or select an existing image of a recipe so the App can extract ingredients. The text recognition runs entirely on your device using Apple's Vision framework. Recipe photos are not uploaded to our servers or to any third party, and the App does not retain them after the ingredients have been extracted.
+
+**Voice input.** With your permission, you can dictate items by voice. Voice recognition is performed by Apple's Speech framework, which may transmit short audio snippets to Apple for processing in accordance with Apple's own privacy policy. We do not receive, store, or otherwise process your voice data ourselves.
+
+**On-device processing.** Grocery item categorization and recipe ingredient extraction are performed entirely on your device using Apple's on-device machine learning frameworks (Vision and Foundation Models). The contents of your lists and recipes are not sent to any third-party AI service for these features.
+
+**Crash, error, and performance diagnostics.** To keep the App stable and secure, we use Sentry to collect automatic crash reports, error events, and aggregate performance data. These reports may include device type, operating system version, app version, language, locale, a non-persistent installation identifier, stack traces, breadcrumbs of recent in-app actions, and limited contextual data about the error. We have configured Sentry to minimize personal data; we do not deliberately attach your name, email, or list contents to crash reports. We use this data to diagnose and fix issues, and to monitor App performance trends in aggregate (analytics) so that we can prioritize improvements. We do not use Sentry data for advertising or to track you across other apps or websites.
 
 **Other technical data.** We may also collect basic technical information such as device type, operating system version, app version, and language to keep the App stable and secure. We do not use this information to identify you personally.
 
@@ -43,6 +51,7 @@ We use your information to:
 - Enable list sharing and collaboration with users you invite;
 - Send push notifications you have opted in to (for example, when a collaborator updates a shared list);
 - Detect, diagnose, and fix crashes, errors, and other technical issues;
+- Monitor aggregate App performance and stability trends so we can prioritize improvements;
 - Maintain security, prevent abuse, and debug technical issues;
 - Comply with legal obligations.
 
